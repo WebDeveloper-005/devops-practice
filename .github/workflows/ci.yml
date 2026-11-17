@@ -17,8 +17,8 @@ jobs:
       - name: Check project files
         shell: pwsh
         run: |
-          if (-not (Test-Path "wrongfile.html")) {
-            Write-Error "wrongfile.html does not exist!"
+          if (-not (Test-Path "index.html")) {
+            Write-Error "index.html does not exist!"
             exit 1
           }
 
