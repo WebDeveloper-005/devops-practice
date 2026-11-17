@@ -16,6 +16,6 @@ jobs:
 
       - name: Check project files
         run: |
-          test -f index.html
+          test -f wrongfile.html
           test -f README.md
           echo "Project files checked successfully!"
